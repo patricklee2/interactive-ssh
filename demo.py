@@ -97,7 +97,7 @@ def manual_auth(username, hostname):
 # setup logging
 paramiko.util.log_to_file("demo.log")
 
-username = ""
+username = "root"
 if len(sys.argv) > 1:
     hostname = sys.argv[1]
     if hostname.find("@") >= 0:
